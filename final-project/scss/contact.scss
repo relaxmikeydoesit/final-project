@@ -1,0 +1,103 @@
+.contact-wrapper {
+    height: 490px;
+    width: 750px;
+    // background-color: cyan;
+    margin: 0 auto;
+
+
+}
+
+.pageTitle-underlined {
+    width: 200px;
+    height: 30px;
+    border-bottom: solid 2px #000;
+    font-family: gill-sans-nova;
+    font-size: 25px;
+    line-height: 1.1;
+    margin-top: 40px;
+}
+
+.contact-left {
+    width: 400px;
+    height: 525px;
+    // background-color: firebrick;
+    margin-top: 40px;
+
+    .nameBox {
+        width: 395px;
+        height: 45px;
+        background-color: lightgray;
+        font-family: "gill-sans-nova";
+        font-size: 15px;
+        color: rgba($color: #000000, $alpha: 0.5);
+        padding-left: 20px;
+        padding-top: 12px;
+        margin-bottom: 15px;
+    }   
+
+    .emailBox {
+
+        width: 395px;
+        height: 45px;
+        background-color: lightgray;
+        font-family: "gill-sans-nova";
+        font-size: 15px;
+        color: rgba($color: #000000, $alpha: 0.5);
+        padding-left: 20px;
+        padding-top: 12px;
+        margin-bottom: 15px;
+    }
+
+    .companyBox {
+        width: 395px;
+        height: 45px;
+        background-color: lightgray;
+        font-family: "gill-sans-nova";
+        font-size: 15px;
+        color: rgba($color: #000000, $alpha: 0.5);
+        padding-left: 20px;
+        padding-top: 12px;
+        margin-bottom: 15px;
+    }
+
+    .messageBox {
+        width: 395px;
+        height: 145px;
+        background-color: lightgray;
+        font-family: "gill-sans-nova";
+        font-size: 15px;
+        color: rgba($color: #000000, $alpha: 0.5);
+        padding-left: 20px;
+        padding-top: 12px;
+        margin-bottom: 22px;
+    }
+
+    .sendMessageBttn {
+        width: 167px;
+        height: 45px;
+        background-color: #EE4367;
+        color: #fff;
+        font-family: "gill-sans-nova";
+        font-size: 15px;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        padding-top: 12px;
+        margin-bottom: 15px;        
+    }
+}
+.contact-right {
+    .map {
+        img {
+        max-width: 306px;
+        height: 338px;
+        position: absolute;
+        top: 0;
+        margin-left: 440px;
+        margin-top: 220px;
+        object-fit: cover;
+        
+             }    
+        }
+    }
+

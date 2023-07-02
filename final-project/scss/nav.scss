@@ -1,0 +1,44 @@
+    nav {
+        position: fixed;
+        z-index: 3;
+        height: 80px;
+        width: 75%;
+        background-color: rgba($color: #687, $alpha: 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 120px;
+        margin-top: 10px;
+
+        // margin: 0 auto;
+        left: 0;
+        right: 0;
+    
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: solid 3px #fff;
+    .logo {
+        width: 42px;
+        height: 42px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .nav-links {
+        width: 275px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+       color: #ffffff;
+       text-decoration: none;
+       font-family: "gill-sans-nova";
+       font-size: 15px;
+
+       span {
+        color: #EE4367;
+                }    
+            }
+        }
+} 
